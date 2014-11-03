@@ -116,7 +116,6 @@ public class Attribution : MonoBehaviour {
 			return;
 		}
 		MATBinding.SetUserId (userId);
-		// TO DO ADJUSTHELPER USERID
 	}
 
 	public static void setUserName(string userName) {
