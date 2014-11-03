@@ -132,9 +132,7 @@ public class Attribution : MonoBehaviour {
 		}
 		MATBinding.SetUserEmail (userEmail);
 	}
-
-	//TO DO setAppVersion
-
+	
 	//TO DO trackDeviceInfo()
 
 	public static void trackNewAccountCreated() {
