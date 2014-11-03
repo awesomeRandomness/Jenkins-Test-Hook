@@ -5,7 +5,7 @@ public class test : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log ("This is a push test");
+		Debug.Log ("I'm making a push");
 	}
 	
 	// Update is called once per frame
