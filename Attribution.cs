@@ -222,7 +222,7 @@ public class Attribution : MonoBehaviour {
 				return new Config (adjustSetPropertiesToken, adjustSetUserIdToken, matAdvertiserId, matConversionKey, debug, sandbox);
 			}
 			catch(System.Exception e) {
-				Debug.Log ("Failed to load default config .json. Error: " + e.ToString ());
+				Debug.Log ("Failed to load default config .json. Errors: " + e.ToString ());
 			}
 			return null;
 		}
