@@ -6,7 +6,7 @@ using SimpleJSON;
 
 public class Attribution : MonoBehaviour {
 	private static bool isInitialized = false;
-	private static bool adjustAttributesSet = false;
+	private static bool adjustAttributesSet = true;
 
 
 	private static string NEW_ACCOUNT_CREATED_KEY = "new_account_created";
